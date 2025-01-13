@@ -1,0 +1,24 @@
+form {
+  max-width: 500px;
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid gray;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+}

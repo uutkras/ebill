@@ -1,0 +1,40 @@
+```diff
+--- a/src/app/layout/main-layout/main-layout.component.css
++++ b/src/app/layout/main-layout/main-layout.component.css
+@@ -1,0 +1,32 @@
++/* Header styles */
++header {
++  background-color: #f0f0f0;
++  padding: 20px;
++  text-align: center;
++}
++
++/* Navbar styles */
++nav {
++  background-color: #e0e0e0;
++  padding: 10px;
++}
++
++nav ul {
++  list-style: none;
++  margin: 0;
++  padding: 0;
++}
++
++nav li {
++  display: inline;
++  margin-right: 20px;
++}
++
++/* Main content styles */
++.main-content {
++  padding: 20px;
++}
++
++/* Footer styles */
++footer {
++  background-color: #d0d0d0;
++  padding: 10px;
++  text-align: center;
++}
+```
